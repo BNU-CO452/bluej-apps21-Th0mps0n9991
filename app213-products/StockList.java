@@ -4,8 +4,8 @@ import java.util.ArrayList;
  * Manage the stock in a business.
  * The stock is described by zero or more Products.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Benjamin Thompson
+ * @version 2021.11.09
  */
 public class StockList
 {
@@ -46,6 +46,9 @@ public class StockList
      */
     public void buyProduct(int productID, int amount)
     {
+        Product product = findProduct(productID);
+        
+        product.increaseQuantity(amount);
     }
     
     /**
@@ -54,9 +57,27 @@ public class StockList
      */
     public Product findProduct(int productID)
     {
+        for(Product item : stock)
+        {
+            int id = item.getID();
+            
+            if(id == productID) return item;
+        }
         return null;
     }
     
+    public void removeProduct(int productID){
+        Product product = findProduct(productID);
+        if(product != null){
+            stock.remove(product);
+            System.out.println("Successfully Removed " + product.getName());
+            return;
+        }
+        else {
+            System.out.println("Error: Unable to find a product with that ID Number");
+            return;
+        }
+    }
     
     /**
      * Sell one of the given product.
@@ -74,19 +95,60 @@ public class StockList
                 product.decreaseQuantity(1);
                 
                 // printout message
+                System.out.println("Successfully Sold One " + product.getName());
+                return;
             }
             else
             {
                 // printout message
+                System.out.println(product.getName() + "is currently out of stock");
+                return;
             }
         }
         else
         {
             // printout message
+            System.out.println("Error: Unable to find a product with that ID Number");
+            return;
         }
     }    
 
+    /**
+     * Sells Amount of the given product.
+     * Show the before and after status of the product.
+     * @param productID The ID of the product being sold.
+     * @param amount The amount of product being sold
+     */
+    public void sellProducts(int productID, int amount)
+    {
+        Product product = findProduct(productID);
+        
+        if(product != null) 
+        {
+            if(product.getQuantity() >= amount)
+            {
+                product.decreaseQuantity(amount);
+                
+                // printout message
+                System.out.println("Successfully Sold " + amount + " of " + product.getName());
+                return;
+            }
+            else
+            {
+                // printout message
+                System.out.println(product.getName() + "is currently out of stock or doe not have enough for that ");
+                return;
+            }
+        }
+        else
+        {
+            // printout message
+            System.out.println("Error: Unable to find a product with that ID Number");
+            return;
+        }
+    } 
     
+
     /**
      * Locate a product with the given ID, and return how
      * many of this item are in stock. If the ID does not
@@ -96,7 +158,18 @@ public class StockList
      */
     public int numberInStock(int productID)
     {
-        return 0;
+        Product product = findProduct(productID);
+        
+        if(product != null) 
+        {
+            return product.getQuantity();
+        }
+        else
+        {
+            // printout message
+            System.out.println("Error: Unable to find a product with that ID Number");
+            return 0;
+        }
     }
 
     /**
@@ -133,7 +206,7 @@ public class StockList
     public void printHeading()
     {
         System.out.println();
-        System.out.println(" Peacock's Stock List");
+        System.out.println(" Thompson's Stock List");
         System.out.println(" ====================");
         System.out.println();
     }
