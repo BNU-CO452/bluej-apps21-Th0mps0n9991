@@ -1,0 +1,7 @@
+Improvements
+
+Add more products to be Sold
+Add a way to refill all the products that are low
+Automate more processes within the program
+Add a way to add more than one product at a time
+Add a way to remove more than one product at a time

@@ -1,0 +1,66 @@
+
+ Thompson's Stock List
+ ====================
+
+ ID 101: Jaguar XJ stock level: 0
+ ID 102: Porsche Panamera stock level: 0
+ ID 103: Bentley Bentayga stock level: 0
+ ID 104: Rolls-Royce Wraith stock level: 0
+ ID 105: BMW 7 Series stock level: 0
+ ID 106: Audi A8 stock level: 0
+ ID 107: Bentley Continental GT stock level: 0
+ ID 108: Rolls-Royce Phantom stock level: 0
+ ID 109: Range Rover stock level: 0
+ ID 110: Mercedes-Benz S-Class stock level: 0
+
+Successfully Bought 7 of Jaguar XJ
+Successfully Bought 11 of Porsche Panamera
+Successfully Bought 4 of Bentley Bentayga
+Successfully Bought 6 of Rolls-Royce Wraith
+Successfully Bought 14 of BMW 7 Series
+Successfully Bought 2 of Audi A8
+Successfully Bought 8 of Bentley Continental GT
+Successfully Bought 9 of Rolls-Royce Phantom
+Successfully Bought 3 of Range Rover
+Successfully Bought 5 of Mercedes-Benz S-Class
+
+ Thompson's Stock List
+ ====================
+
+ ID 101: Jaguar XJ stock level: 7
+ ID 102: Porsche Panamera stock level: 11
+ ID 103: Bentley Bentayga stock level: 4
+ ID 104: Rolls-Royce Wraith stock level: 6
+ ID 105: BMW 7 Series stock level: 14
+ ID 106: Audi A8 stock level: 2
+ ID 107: Bentley Continental GT stock level: 8
+ ID 108: Rolls-Royce Phantom stock level: 9
+ ID 109: Range Rover stock level: 3
+ ID 110: Mercedes-Benz S-Class stock level: 5
+
+Successfully Sold 4 of Jaguar XJ
+Successfully Sold 7 of Porsche Panamera
+Successfully Sold 2 of Bentley Bentayga
+Successfully Sold 5 of Rolls-Royce Wraith
+Successfully Sold 9 of BMW 7 Series
+Successfully Sold 1 of Audi A8
+Successfully Sold 6 of Bentley Continental GT
+Successfully Sold 6 of Rolls-Royce Phantom
+Successfully Sold 3 of Range Rover
+Successfully Sold 4 of Mercedes-Benz S-Class
+
+ Thompson's Stock List
+ ====================
+
+ ID 101: Jaguar XJ stock level: 3
+ ID 102: Porsche Panamera stock level: 4
+ ID 103: Bentley Bentayga stock level: 2
+ ID 104: Rolls-Royce Wraith stock level: 1
+ ID 105: BMW 7 Series stock level: 5
+ ID 106: Audi A8 stock level: 1
+ ID 107: Bentley Continental GT stock level: 2
+ ID 108: Rolls-Royce Phantom stock level: 3
+ ID 109: Range Rover stock level: 0
+ ID 110: Mercedes-Benz S-Class stock level: 1
+
+Successfully Removed Rolls-Royce Phantom
