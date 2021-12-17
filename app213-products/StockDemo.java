@@ -46,12 +46,22 @@ public class StockDemo
         // Show details of all of the products before delivery.
         
         stock.print();
-
+        
+        stock.add(new Product(111, "Rolls-Royce Boat Tail"));
+        stock.add(new Product(112, "Pagani Zonda HP Barchetta"));
+        
+        
+        stock.buyProduct(111, 10);
+        stock.buyProduct(112, 7);
         buyProducts();
         stock.print();        
-
+        
+        stock.sellProducts(111, 5);
+        stock.sellProducts(112, 3);
         sellProducts();
-        stock.print();        
+        stock.print();
+        
+        
     }
     
     private void buyProducts()
@@ -70,15 +80,15 @@ public class StockDemo
     
     private void sellProducts()
     {
-        stock.sellProduct(101, 4);
-        stock.sellProduct(102, 7);
-        stock.sellProduct(103, 2);
-        stock.sellProduct(104, 5);
-        stock.sellProduct(105, 9);
-        stock.sellProduct(106, 1);
-        stock.sellProduct(107, 6);
-        stock.sellProduct(108, 6);
-        stock.sellProduct(109, 3);
-        stock.sellProduct(110, 4);
+        stock.sellProducts(101, 4);
+        stock.sellProducts(102, 7);
+        stock.sellProducts(103, 2);
+        stock.sellProducts(104, 5);
+        stock.sellProducts(105, 9);
+        stock.sellProducts(106, 1);
+        stock.sellProducts(107, 6);
+        stock.sellProducts(108, 6);
+        stock.sellProducts(109, 3);
+        stock.sellProducts(110, 4);
     }    
 }

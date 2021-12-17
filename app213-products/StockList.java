@@ -49,6 +49,7 @@ public class StockList
         Product product = findProduct(productID);
         
         product.increaseQuantity(amount);
+        System.out.println("Successfully Bought " + amount + " of " + product.getName());
     }
     
     /**
@@ -209,5 +210,19 @@ public class StockList
         System.out.println(" Thompson's Stock List");
         System.out.println(" ====================");
         System.out.println();
+    }
+    
+    public void getLowStock()
+    {
+        System.out.println();
+        System.out.println(" Thompson's Low Stock List");
+        System.out.println(" ====================");
+        System.out.println();
+        for(Product item : stock)
+        {
+             if(item.getQuantity() <= 4) {
+                System.out.println(item.getName() + " - Remaining Stock: " + item.getQuantity());                
+             }
+        }
     }
 }
