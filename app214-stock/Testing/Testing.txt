@@ -1,0 +1,169 @@
+Successfully Bought 7 of Jaguar XJ
+Successfully Bought 11 of Porsche Panamera
+Successfully Bought 4 of Bentley Bentayga
+Successfully Bought 6 of Rolls-Royce Wraith
+Successfully Bought 14 of BMW 7 Series
+Successfully Bought 2 of Audi A8
+Successfully Bought 8 of Bentley Continental GT
+Successfully Bought 9 of Rolls-Royce Phantom
+Successfully Bought 3 of Range Rover
+Successfully Bought 5 of Mercedes-Benz S-Class
+********************************
+  App21-04: Stock Application 
+      by Benjamin Thompson
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy an amount of product
+    Sell:       Sell an amount of product
+    Search:     For a certain product
+    Lowstock:   Find all Low stock products
+    Quit:       Quit the program
+
+Please enter your choice > add
+Enter the ID for the new product > 
+112
+Enter the name for the new product > 
+Your input is blank!
+
+Enter the name for the new product > test
+Success Added test to the Stock list
+********************************
+  App21-04: Stock Application 
+      by Benjamin Thompson
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy an amount of product
+    Sell:       Sell an amount of product
+    Search:     For a certain product
+    Lowstock:   Find all Low stock products
+    Quit:       Quit the program
+
+Please enter your choice > remove
+Which Product would you like to remove > 
+112
+Successfully Removed test
+Successfully Removed test
+********************************
+  App21-04: Stock Application 
+      by Benjamin Thompson
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy an amount of product
+    Sell:       Sell an amount of product
+    Search:     For a certain product
+    Lowstock:   Find all Low stock products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > print
+
+ Thompson's Stock List
+ ====================
+
+ ID 101: Jaguar XJ stock level: 7
+ ID 102: Porsche Panamera stock level: 11
+ ID 103: Bentley Bentayga stock level: 4
+ ID 104: Rolls-Royce Wraith stock level: 6
+ ID 105: BMW 7 Series stock level: 14
+ ID 106: Audi A8 stock level: 2
+ ID 107: Bentley Continental GT stock level: 8
+ ID 108: Rolls-Royce Phantom stock level: 9
+ ID 109: Range Rover stock level: 3
+ ID 110: Mercedes-Benz S-Class stock level: 5
+
+********************************
+  App21-04: Stock Application 
+      by Benjamin Thompson
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy an amount of product
+    Sell:       Sell an amount of product
+    Search:     For a certain product
+    Lowstock:   Find all Low stock products
+    Quit:       Quit the program
+
+Please enter your choice > buy
+Which Product would you like to buy > 
+104
+Amount to be bought > 
+4
+Successfully Bought 4 of Rolls-Royce Wraith
+Successfully Purchased 4 of Rolls-Royce Wraith
+********************************
+  App21-04: Stock Application 
+      by Benjamin Thompson
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy an amount of product
+    Sell:       Sell an amount of product
+    Search:     For a certain product
+    Lowstock:   Find all Low stock products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > sell
+Which Product would you like to sell > 
+104
+Amount to be sold > 
+5
+Successfully Sold 5 of Rolls-Royce Wraith
+Successfully Sold 5 of Rolls-Royce Wraith
+********************************
+  App21-04: Stock Application 
+      by Benjamin Thompson
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy an amount of product
+    Sell:       Sell an amount of product
+    Search:     For a certain product
+    Lowstock:   Find all Low stock products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > lowstock
+
+ Thompson's Low Stock List
+ ====================
+
+Bentley Bentayga - Remaining Stock: 4
+Audi A8 - Remaining Stock: 2
+Range Rover - Remaining Stock: 3
+********************************
+  App21-04: Stock Application 
+      by Benjamin Thompson
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Buy:        Buy an amount of product
+    Sell:       Sell an amount of product
+    Search:     For a certain product
+    Lowstock:   Find all Low stock products
+    Quit:       Quit the program
+
+Please enter your choice > quit
