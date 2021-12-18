@@ -1,0 +1,7 @@
+Evaluation
+
+1 - I would need to make sure that searching is working 100%
+2 - I would need to improve the adding and removing of products
+3 - I would also need to allow the buy and selling of products by name
+4 - Need to add a restock feature as that is a current limitation.
+5 - I would also want to make it so that you can buy and sell multiple things at the same time.
